@@ -30,4 +30,4 @@ while B:
 	if C == 'no':
 		B = False
 
-print( 'Bye Bye'+D+'!!!!!!!!!!!!!!!!!!!')
+print( 'Bye Bye '+D+'!!!!!!!!!!!!!!!!!!!')
