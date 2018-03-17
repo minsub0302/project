@@ -15,10 +15,16 @@ def calc():
 	return I
 		
 
-A = calc()
-message = input(A+'=')
 
-if eval(A) == int(message):
-	print('맞았어요!')
-else:
-	print('틀렸어요!')
+
+B = True
+while B:
+	A = calc()
+	message = input(A+'=')
+	if eval(A) == int(message):
+		print('맞았어요!')
+	else:
+		print('틀렸어요!')
+	C = input('Continue? (yes/no)')
+	if C == 'no':
+		B = False
