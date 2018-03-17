@@ -29,3 +29,5 @@ while B:
 	C = input('Continue? (yes/no)')
 	if C == 'no':
 		B = False
+
+print( 'Bye Bye'+D+'!!!!!!!!!!!!!!!!!!!')
