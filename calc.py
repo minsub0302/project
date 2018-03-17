@@ -14,4 +14,11 @@ def calc():
 	I = str(a)+k+str(b)
 	return I
 		
-print(calc())
+
+A = calc()
+message = input(A+'=')
+
+if eval(A) == int(message):
+	print('맞았어요!')
+else:
+	print('틀렸어요!')
