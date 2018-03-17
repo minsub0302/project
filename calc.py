@@ -14,14 +14,15 @@ def calc():
 	I = str(a)+k+str(b)
 	return I
 		
-
+D = input("What's your name?")
+print('Hello '+D+'!!!!!!!!!!!!!!!!!!!!!!!!!')
 
 
 B = True
 while B:
-	A = calc()
+	A = str(calc())
 	message = input(A+'=')
-	if eval(A) == int(message):
+	if eval(A) == message:
 		print('맞았어요!')
 	else:
 		print('틀렸어요!')
